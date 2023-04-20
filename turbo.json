@@ -3,10 +3,10 @@
   "globalDependencies": ["**/.env.*local"],
   "pipeline": {
     "build": {
-      "outputs": [".next/**", "!.next/cache/**"]
+      "outputs": [".vite/**", "!.vite/cache/**"]
     },
     "lint": {},
-    "dev": {
+    "start": {
       "cache": false,
       "persistent": true
     }

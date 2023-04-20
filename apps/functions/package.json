@@ -1,0 +1,12 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "vercel dev --yes",
+    "deploy": "vercel deploy --prod"
+  },
+  "author": "",
+  "license": "ISC"
+}
