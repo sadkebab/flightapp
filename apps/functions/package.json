@@ -8,5 +8,12 @@
     "deploy": "vercel deploy --prod"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "fp-ts": "^2.13.2",
+    "mysql2": "^3.2.3",
+    "zod": "^3.21.4",
+    "router": "*"
+  }
 }
